@@ -1,0 +1,16 @@
+html {
+  height: 100%;
+  /* background-image: url("https://gweb-earth.storage.googleapis.com/assets/hero@2x.jpg");
+  background-repeat: no-repeat;
+  background-position: center; */
+
+}
+
+body {
+
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}

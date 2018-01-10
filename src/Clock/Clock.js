@@ -29,7 +29,7 @@ class Clock extends Component {
     return(
 <div>
 
-      <div class="clock"></div>
+      <div className="clock"></div>
 
 
 </div>
