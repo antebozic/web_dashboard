@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import axios from "axios"
 import "./Weather.css"
 import {Icon} from 'react-fa'
-const kelvinToFahrenheit = require('kelvin-to-fahrenheit')
+
 
 class Weather extends Component {
 	constructor(props) {
@@ -20,10 +20,10 @@ class Weather extends Component {
 //
 //
 // 	function getLocation() {
-// 					navigator.geolocation.getCurrentPosition(showPosition)
+// 					navigator.geolocation.getCurrentPosition(insertPosition)
 // 	}
 //
-// 	function showPosition(position) {
+// 	function insertPosition(position) {
 //
 // 			console.log(position.coords.latitude )
 // 			console.log(position.coords.longitude)
@@ -77,7 +77,7 @@ class Weather extends Component {
 
 				{this.state.cityName}
 				<br></br>
-				{Math.round(((this.state.temp-273.15)*1.8)+32)+" F"}
+				<i class="fa fa-thermometer-three-quarters" aria-hidden="true"></i>{Math.round(((this.state.temp-273.15)*1.8)+32)+" F"}
 				<br></br>
 				{this.state.description}
 

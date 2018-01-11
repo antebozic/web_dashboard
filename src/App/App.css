@@ -1,16 +1,48 @@
-html {
-  height: 100%;
-  /* background-image: url("https://gweb-earth.storage.googleapis.com/assets/hero@2x.jpg");
-  background-repeat: no-repeat;
-  background-position: center; */
+@fontface {
+	font-family: "Lora", serif;
+	src: url("https://fonts.googleapis.com/css?family=Lora|Roboto|VT323");
+}
 
+html {
+	height: 100%;
 }
 
 body {
+	display: flex;
+	/* flex-direction: column; */
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	/* background-image: url("https://i.imgur.com/fKKhzjR.jpg");
 
-  display: flex;
-  /* flex-direction: column; */
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+	background-repeat: no-repeat; */
+	background-color: #8cb369;
+}
+
+.wrap {
+	margin: 20px;
+	padding: 50px;
+	/* border: 1px solid black; */
+	color: black;
+	display: flex;
+	flex-wrap: wrap;
+}
+.clock {
+	padding: 10px;
+	margin: 5px;
+	display: flex;
+}
+.weather {
+	margin: 5px;
+	font-size: 2em;
+}
+.cal {
+	/* border: 1px solid black; */
+}
+.video {
+	margin: 5px;
+	/* border: 1px solid black; */
+	height: 100%;
+	display: flex;
+	padding: 25px;
 }
