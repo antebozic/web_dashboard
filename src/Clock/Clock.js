@@ -7,7 +7,6 @@ class Clock extends Component {
 
   render(){
 
-// clock function
     function clock() {
       var time = new Date(),
         hours = time.getHours(),
