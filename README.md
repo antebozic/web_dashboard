@@ -26,3 +26,7 @@ Clone the project from the GitHub.
 Using CLI go into the web_dashboard folder, run npm install and after that run npm run build .
 In Chrome browser open chrome://extensions/
 Click on the Developer mode. Inside of web_dashboard project, locate build folder. Drag&drop it inside of Chrome extensions window. An icon will appear in your extensions bar.
+
+## Unsolved problems
+
+I would like to update the way my location long and lat variables are resolved, before making API call.
