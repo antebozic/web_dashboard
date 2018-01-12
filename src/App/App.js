@@ -4,7 +4,6 @@ import "./App.css"
 import Clock from "../Clock/Clock.js"
 import Weather from "../Weather/Weather.js"
 import Iframe from "react-iframe"
-// import Calendar from "react-calendar"
 
 class App extends Component {
 	render() {
