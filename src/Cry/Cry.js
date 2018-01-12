@@ -1,13 +1,13 @@
 import React, { Component } from "react"
 import Iframe from "react-iframe"
-import "./W24.css"
+import "./Cry.css"
 
-class W24 extends Component {
+class Cry extends Component {
 	render() {
 		return (
 			<div className="video">
 				<Iframe
-					url="https://www.welt.de/"
+					url="https://cryptowat.ch/"
 					width="460"
 					height="390"
 					id="myId"
@@ -20,4 +20,4 @@ class W24 extends Component {
 		)
 	}
 }
-export default W24
+export default Cry

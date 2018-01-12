@@ -18,10 +18,10 @@ class Nav extends Component {
 				<Link className="nav-link" to="/reuters">
 					REUTERS
 				</Link>
-				<Link className="nav-link" to="/w24">
+				<Link className="nav-link" to="/welt">
 					<strong>W24</strong>
 				</Link>
-				<Link className="nav-link" to="/crypto">
+				<Link className="nav-link" to="/cry">
 					CRYPTO
 				</Link>
 			</nav>

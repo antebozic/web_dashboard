@@ -1,13 +1,13 @@
 import React, { Component } from "react"
 import Iframe from "react-iframe"
-import "./Crypto.css"
+import "./Welt.css"
 
-class Crypto extends Component {
+class Welt extends Component {
 	render() {
 		return (
 			<div className="video">
 				<Iframe
-					url="https://cryptowat.ch/"
+					url="https://www.welt.de/"
 					width="460"
 					height="390"
 					id="myId"
@@ -20,4 +20,4 @@ class Crypto extends Component {
 		)
 	}
 }
-export default Crypto
+export default Welt

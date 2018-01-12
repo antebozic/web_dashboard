@@ -7,7 +7,7 @@ class Bbc extends Component {
 		return (
 			<div className="video">
 				<Iframe
-					url="http://www.bbc.com/news"
+					url="http://www.bbc.com/"
 					width="460"
 					height="390"
 					id="myId"
