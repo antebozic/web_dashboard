@@ -7,7 +7,7 @@ class Nyt extends Component {
 		return (
 			<div className="video">
 				<Iframe
-					url="https://mobile.nytimes.com/"
+					url="https://www.wsj.com/"
 					width="460"
 					height="390"
 					id="myId"

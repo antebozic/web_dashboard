@@ -67,7 +67,7 @@ class Weather extends Component {
 				{this.state.cityName}
 				<br />
 				<i class="fa fa-thermometer-three-quarters" aria-hidden="true" />
-				{Math.round((this.state.temp - 273.15) * 1.8 + 32) + " F"}
+				 {Math.round((this.state.temp - 273.15) * 1.8 + 32) + " F"}
 				<br />
 				{this.state.description}
 			</div>
