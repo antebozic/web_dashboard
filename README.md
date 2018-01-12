@@ -2,6 +2,10 @@
 
 Web Dashboard is Chrome browser extension build with React. It allows users to browse several news outlets from the pop-up window without switching tabs or interrupting their work. In addition to it, it provides information about current weather based on user location and shows time. Deployed version can be found at: http://dash-board.surge.sh/#/nyt
 
+## Application Preview
+
+![picture](./public/screen.png)
+
 ## Technologies Used
 
 Web Dashboard utilizes the React and Node. The app has a React front-end and gets the data from OpenWeatherMap API and third party websites. Dependencies used include:
