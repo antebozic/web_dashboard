@@ -8,27 +8,11 @@ import Iframe from "react-iframe"
 
 class App extends Component {
 	render() {
-		// getLocation()
-		//
-		//
-		// var lat = 0
-		// var long = 0
-		//
-		//
-		// function getLocation() {
-		// 				navigator.geolocation.getCurrentPosition(showPosition)
-		// }
-		//
-		// function showPosition(position) {
-		// 		console.log(position.coords.latitude )
-		// 		console.log(position.coords.longitude)
-		// 		lat = position.coords.latitude
-		// 		long = position.coords.longitude
-		// }
+		console.log(Iframe.url)
 
 		return (
-			<div>
-				<div className="wrap">
+			<div className="wrap">
+				<div class="head">
 					<div className="weather">
 						<Weather />
 					</div>
@@ -36,19 +20,19 @@ class App extends Component {
 					<div className="clock">
 						<Clock />
 					</div>
+				</div>
 
-					<div className="video">
-						<Iframe
-							url="https://mobile.reuters.com/"
-							width="400"
-							height="400"
-							id="myId"
-							className="myClassname"
-							display="initial"
-							position="relative"
-							allowFullScreen
-						/>
-					</div>
+				<div className="video">
+					<Iframe
+						url="https://www.washingtonpost.com/regional/"
+						width="460"
+						height="390"
+						id="myId"
+						className="myClassname"
+						display="initial"
+						position="relative"
+						allowFullScreen
+					/>
 				</div>
 			</div>
 		)
